@@ -1,6 +1,10 @@
+*{
+    background-color: black;
+}
+
 
 div.box{
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     width: 150px;
     height: 150px;
     
@@ -25,7 +29,7 @@ div#teste{
     /* criando a caixa */
     height: 50px;
     width: 50px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     background-color: blue;
 
     /* posicionando no meio da tela */
