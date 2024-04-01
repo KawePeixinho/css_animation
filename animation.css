@@ -45,3 +45,25 @@ div#teste{animation: rotate 3s infinite;}
     0%{transform: rotate(0deg);}
     100%{transform: rotate(360deg);}
 }
+
+div#cx{
+
+    /* criando a caixa */
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: blue;
+
+    /* posicionando no meio da tela */
+    position: absolute;
+    top: 45%;
+    right: 45%;
+    transform: translate(-45%, -45%);
+}
+
+/* atribuindo animação de rotação infinita nela */
+div#cx{animation: rotate 3s infinite;}
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
